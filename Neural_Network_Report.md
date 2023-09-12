@@ -48,4 +48,4 @@ What steps did you take in your attempts to increase model performance?
 
 Summary:
 
-In Summary, additional attempts by adjusting variables did not increase the performance.  Next steps, I would request more data in the hopes to improve the result.
+- In Summary, additional attempts by adjusting variables did not increase the performance.  Next steps, I would request more data in the hopes to improve the result.
