@@ -123,7 +123,8 @@ Move them into your Deep Learning Challenge directory in your local repository.
 
 Push the added files to GitHub.
 
-Requirements
+## Requirements:
+
 Preprocess the Data (30 points)
 Create a dataframe containing the charity_data.csv data , and identify the target and feature variables in the dataset (2 points)
 Drop the EIN and NAME columns (2 points)
