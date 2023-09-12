@@ -8,15 +8,15 @@ The nonprofit foundation Alphabet Soup wants a tool that can help it select the 
 
 What variable(s) are the target(s) for your model?
 
-The 'IS_SUCCESSFUL' column from application_df is the target variable
+- The 'IS_SUCCESSFUL' column from application_df
 
 What variable(s) are the features for your model?
 
-The "APPLICATION_TYPE" , "AFFILIATION", "CLASSIFICATION", "USE_CASE", "ORGANIZATION", "STATUS", "INCOME_AMT", "SPECIAL_CONSIDERATIONS", "ASK_AMT" columns are the features
+- The "APPLICATION_TYPE" , "AFFILIATION", "CLASSIFICATION", "USE_CASE", "ORGANIZATION", "STATUS", "INCOME_AMT", "SPECIAL_CONSIDERATIONS", "ASK_AMT" columns are the features
 
 What variable(s) should be removed from the input data because they are neither targets nor features?
 
-The "EIN & "NAME" columns were removed because they are neither targets or features.
+- The "EIN & "NAME" columns should be removed.
 
 # Compiling, Training, and Evaluating the Model:
 
@@ -31,18 +31,21 @@ The "EIN & "NAME" columns were removed because they are neither targets or featu
     25 epoch
 
 - 2nd attempt(Optomized): 3 hidden layers plus an outer layer, 
-    layer 1: 30 neurons - relu activation
-    layer 2: 20 neurons - relu activation
+    layer 1: 20 neurons - relu activation
+    layer 2: 10 neurons - relu activation
     layer 3: 5 neurons - relu activation
     Outer layer: 1 unit - sigmoid activation & adam optimizers as the complier.
-    60 epoch
+    60 epochs
+
 Were you able to achieve the target model performance?
 
-No, the target model performance was not met. The highest score achieved was 73%
+- No, the highest score achieved was 73% (72.86297082901001)
 
 What steps did you take in your attempts to increase model performance?
 
-Attempts were made to add a hidden layer and increase neuron nodes.  Increased and decreased number of epochs.
+- Added a hidden layer and increase neuron nodes.
+- Increased and decreased number of epochs.
 
 Summary:
-In Summary adding extra hidden layers with extra neron nodes did not increase the performance by any measurable means. Scrubbing more data may increase the performance, but the increase of hidden layers and modes did not make an impact.
+
+In Summary, additional attempts by adjusting variables did not increase the performance.  Next steps, I would request more data in the hopes to improve the result.
